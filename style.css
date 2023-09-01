@@ -355,6 +355,11 @@
         color: var(--info-color)
     }
 
+    .collapsed {
+        color: var(--text-color);
+        background: rgb(255 255 255 / 20%)
+    }
+
     .headline, .midheadline, .subheadline {
         background: rgb(255 255 255 / 10%)
     }
