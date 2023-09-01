@@ -275,6 +275,14 @@
         color: var(--link-color)
     }
 
+    .b-user_rate-history .action-time .action {
+        color: var(--sub-color)
+    }
+
+    .b-user_rate-history .action-time time {
+        color: var(--info-color)
+    }
+
     .bar.horizontal .line .x_label {
         color: var(--sub-color)
     }
@@ -400,6 +408,15 @@
     .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names {
         background: var(--info-color);
         border: 0;
+        color: var(--text-color)
+    }
+
+    .p-dashboards-show .v2 .my-list {
+        background: rgb(255 255 255 / 10%);
+        border: 0
+    }
+
+    .p-dashboards-show .v2 .my-list .label span {
         color: var(--text-color)
     }
 
