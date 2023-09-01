@@ -351,6 +351,14 @@
         background: rgb(255 255 255 / 20%)
     }
 
+    .item-add {
+        color: #ccc;
+    }
+
+    .item-minus {
+        color: #ccc;
+    }
+
     .l-page {
         background-color: rgb(52 52 52 / 75%);
         outline: 0
