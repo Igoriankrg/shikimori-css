@@ -221,7 +221,7 @@
     }
 
     .b-reviews_navigation .navigation-node-all {
-        background-color: rgb(255 255 255 / 25%);
+        background-color: rgb(255 255 255 / 85%);
         border: 0
     }
 
@@ -354,28 +354,60 @@
         color: var(--info-color)
     }
 
+    .buttons .item-cancel .is-active {
+        color: var(--text-color)
+    }
+
     .buttons .item-delete {
         color: var(--info-color)
+    }
+
+    .buttons .item-delete .is-active {
+        color: var(--text-color)
     }
 
     .buttons .item-edit {
         color: var(--info-color)
     }
 
+    .buttons .item-edit .is-active {
+        color: var(--text-color)
+    }
+
     .buttons .item-ignore {
         color: var(--info-color)
+    }
+
+    .buttons .item-ignore .is-active {
+        color: var(--text-color)
     }
 
     .buttons .item-moderation {
         color: var(--info-color)
     }
 
+    .buttons .item-moderation .is-active {
+        color: var(--text-color)
+    }
+
     .buttons .item-quote {
         color: var(--info-color)
     }
 
+    .buttons .item-quote .is-active {
+        color: var(--text-color)
+    }
+
     .buttons .item-reply {
         color: var(--info-color)
+    }
+
+    .buttons .item-reply .is-active {
+        color: var(--text-color)
+    }
+
+    .buttons .main-controls a {
+        color: var(--info-color);
     }
 
     .collapsed {
