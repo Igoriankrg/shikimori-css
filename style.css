@@ -343,6 +343,10 @@
         color: var(--info-color)
     }
 
+    .copyright {
+        color: var(--info-color)
+    }
+
     .headline, .midheadline, .subheadline {
         background: rgb(255 255 255 / 10%)
     }
