@@ -3,6 +3,10 @@
         color: #0d0d0d
     }
 
+    .b-achievement .c-about .percent, .b-achievement .about .percent {
+        color: var(--info-color);
+    }
+
     .b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
         background-color: rgb(200 255 200 / 10%);
         border: 0
@@ -277,6 +281,14 @@
 
     .b-text_with_paragraphs .b-link {
         color: var(--link-color)
+    }
+
+    .b-to-top.active .arrow {
+        color: #fff
+    }
+
+    .b-to-top.active .slide:hover:before {
+        opacity: 0.25
     }
 
     .b-user16:hover {
