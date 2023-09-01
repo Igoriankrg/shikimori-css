@@ -93,6 +93,10 @@
         color: var(--text-color)
     }
 
+    .b-critique-topic .critique-stars .title {
+        color: var(--headline-color)
+    }
+
     .b-db_entry-variant-list_item > .info .line .key {
         color: var(--text-color)
     }
