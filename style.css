@@ -287,6 +287,14 @@
         color: var(--text-color)
     }
 
+    .b-user.detailed .info .last-online, .b-user.moderation .info .last-online {
+        color: var(--info-color)
+    }
+
+    .b-user.detailed .history .line .event, .b-user.moderation .history .line .event {
+        color: var(--info-color)
+    }
+
     .b-user_history-line .date {
         color: var(--info-color)
     }
