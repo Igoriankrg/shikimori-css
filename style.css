@@ -453,6 +453,10 @@
         outline: 0
     }
 
+    .l-top_menu-v2 .global-search .search-marker {
+        color: var(--info-color)
+    }
+
     .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
         color: #fff
     }
@@ -469,6 +473,10 @@
         background: var(--info-color);
         border: 0;
         color: var(--text-color)
+    }
+
+    .p-contests .results .cc-result .c-rounds .label {
+        color: var(--info-color)
     }
 
     .p-dashboards-show .v2 .my-list {
