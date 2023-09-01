@@ -1,408 +1,527 @@
 @media (prefers-color-scheme: dark) {
-  body{
-      --link-color: #3ea6ff;
-      --link-hover-color: #f1f1f1;
-      --link-active-color: #f1f1f1;
-      --headline-color: #f1f1f1;
-      --text-color: #f1f1f1;
-      --sub-color: #aaa;
-      --info-color: #9da2a8;
-    	background: url(/assets/background/tactile_noise.png) repeat; 
-  }
-  .CodeMirror-line span {
-      color: #0d0d0d;
-  }
-  .l-page {
-      background-color: rgb(52 52 52 / 75%);
-      outline: 0;
-  }
-  span {
-      color: var(--text-color);
-  }
-  label {
-      color: var(--text-color);
-  }
-  b {
-      color: var(--text-color);
-  }
-  p {
-      color: var(--text-color);
-  }
-  time {
-      color: var(--info-color);
-  }
-  select {
-      color: #fff;
-      background: rgb(255 255 255 / 10%);
-  }
-  a span {
-      color: var(--link-color);
-  }
-  a span:hover {
-      color: var(--text-color);
-  }
-  h1, h2, h3, h4 {
-      color: var(--headline-color);
-  }
-  input {
-      background-color: #fff;
-      color: #000;
-  }
-  .tooltip-inner {
-      background-color: rgb(52 52 52);
-      color: var(--text-color);
-  }
-  .block {
-      color: var(--text-color);
-  }
-  .b-link {
-      color: var(--sub-color);
-  }
-  .b-link span {
-      color: var(--sub-color);
-  }
-  .b-link:hover {
-      color: var(--text-color);
-  }
-  .b-link span:hover {
-      color: var(--text-color);
-  }
-  .b-text_with_paragraphs {
-      color: var(--info-color);
-  }
-  .b-text_with_paragraphs .b-link {
-      color: var(--link-color);
-  }
-  .b-options-floated a, .b-options-floated .link {
-      color: var(--sub-color);
-  }
-  .b-form input[type=submit] {
-      color: #0d0d0d;
-      background: #3ea6ff;
-      font-size: 14px;
-      font-weight: 700;
-      text-transform: uppercase;
-      padding: 6px 12px;
-      letter-spacing 0.14px;
-      line-height 20px;
-      border-radius: 2px;
-  }
-  .b-stats_bar .stat_names .stat_name a {
-      color: var(--text-color);
-  }
-  .b-stats_bar a.title:hover {
-      color: var(--text-color);
-  }
-  .b-user_history-line .date {
-      color: var(--info-color);
-  }
-  .b-entry-info .line .value {
-      color: var(--text-color);
-  }
-  .b-rate .score-notice {
-      color: var(--text-color);
-  }
-  .b-animes-menu .total-rates {
-      color: var(--text-color);
-  }
-  .b-db_entry>.c-about .additional-links .line-container>.link:hover, .b-db_entry>.c-about .additional-links .line-container>a:hover {
-      color: var(--text-color);
-  }
-  .b-lang_trigger span:hover {
-      color: var(--text-color);
-  }
-  .b-animes-menu .menu-topics-block .entry .name:hover {
-      color: var(--text-color);
-  }
-  .b-user16:hover {
-      color: var(--text-color);
-  }
-  .b-user16:hover a {
-      color: var(--text-color);
-  }
-  .b-db_entry-variant-list_item>.info .line .key {
-      color: var(--text-color);
-  }
-  .b-catalog_entry .cover .title:hover {
-      color: var(--text-color);
-  }
-  .b-tag {
-      color: var(--link-color);
-  }
-  .b-rate .text-score {
-      color: var(--sub-color);
-  }
-  .b-db_entry>.c-about .contest_winners .winners .winner {
-      color: var(--text-color);
-  }
-  .b-user_history-line a span {
-      color: var(--link-color);
-  }
-  .b-review-topic.is-review_review_author_details>.inner .review-details .b-status-line {
-      color: var(--info-color);
-  }
-  .b-comment>.inner>.body {
-      color: var(--text-color);
-  }
-  .b-button {
-      color: #0d0d0d;
-      background: #3ea6ff;
-      font-size: 14px;
-      font-weight: 700;
-      text-transform: uppercase;
-      padding: 6px 12px;
-      letter-spacing 0.14px;
-      line-height 20px;
-      border-radius: 2px;
-  }
-  .b-catalog_entry-tooltip .inner .line .key {
-      color: var(--info-color);
-  }
-  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover {
-      color: var(--text-color);
-  }
-  .b-block_list li {
-      color: var(--text-color);
-  }
-  .b-block_list li:hover {
-      background: rgb(255 255 255 / 20%);
-  }
-  .b-stats_bar .title {
-      color: var(--info-color);
-  }
-  header.head h1, header.head h2 {
-      color: var(--text-color);
-  }
-  header.head h1 a.back:before, header.head h2 a.back:before {
-      color: var(--link-color);
-  }
-  header.head h1 a.back:hover:before, header.head h2 a.back:hover:before {
-     color: var(--text-color);
-  }
-  header.head .notice {
-      color: var(--info-color);
-  }
-  header.head .notice span {
-      color: var(--info-color);
-  }
-  .headline, .midheadline, .subheadline {
-      background: rgb(255 255 255 / 10%);
-  }
-  .headline:hover, .midheadline:hover, .subheadline:hover {
-      background: rgb(255 255 255 / 20%);
-  }
-  .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown>span {
-      color: #fff;
-  }
-  .p-profiles-show .profile-content .activity .title {
-      color: var(--info-color);
-  }
-  .bar.vertical .line .x_label {
-      color: var(--sub-color);
-  }
-  .p-profiles-show .lifetime .times .time {
-      color: #fff;
-  }
-  .p-profiles-show .lifetime .times .time.checked {
-      color: var(--sub-color);
-  }
-  .p-profiles-show .achievements .header .title {
-      color: var(--sub-color);
-  }
-  .bar.horizontal .line .x_label {
-      color: var(--sub-color);
-  }
-  .l-top_menu-v2 .submenu>a:hover span {
-      color: #123;
-  }
-  .p-user_rates-index .list-lines .selectable:hover {
-      background: rgb(255 255 255 / 20%);
-  }
-  .p-user_rates-index .list-groups .summary.lines {
-      color: var(--info-color);
-  }
-  .menu-dropdown a span {
-      color: var(--text-color);
-  }
-  .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names {
-      color: var(--text-color);
-      background: var(--info-color);
-      border: 0;
-  }
-  .b-status-line .section.main .comments:before {
-      color: var(--text-color);
-  }
-  .b-status-line .section.created_at time:before {
-      color: var(--text-color);
-  }
-  .p-topics header h1 a.reload {
-      color: var(--headline-color);
-  }
-  .b-quote {
-      color: var(--text-color);
-      background-color: rgb(255 255 255 / 20%);
-  }
-  .b-quote-v2 {
-      background-color: rgb(255 255 255 / 20%);
-  }
-  .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander {
-      color: var(--text-color);
-      background-color: rgb(255 255 255 / 10%);
-  }
-  .b-hot_topics-v2 {
-      background: transparent;
-      border: 0;
-  }
-  .b-hot_topics-v2 .subject, .b-hot_topics-v2 .b-link {
-      color: var(--headline-color);
-  }
-  .b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
-      border: 0;
-      background-color: rgb(200 200 255 / 10%);
-  }
-  .b-add_to_list.dropped .trigger, .b-add_to_list.dropped .option {
-      border: 0;
-      background-color: rgb(255 200 200 / 10%);
-  }
-  .b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
-      border: 0;
-      background-color: rgb(200 255 200 / 10%);
-  }
-  .b-add_to_list.on_hold .trigger, .b-add_to_list.on_hold .option {
-      border: 0;
-      background-color: rgb(255 255 255 / 20%);
-  }
-  .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
-      border: 0;
-      background-color: rgb(200 200 255 / 20%);
-  }
-  .b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
-      border: 0;
-      background-color: rgb(200 200 255 / 20%);
-  }
-  .b-height_shortener .shade {
-      background-image: linear-gradient(to bottom, rgba(255,255,255,0), #333);
-  }
-  .b-review-topic.is-review_review_author_details>.inner .review-info .neutral {
-      color: var(--info-color);
-  }
-  .b-reviews_navigation .navigation-node-all {
-      border: 0;
-      background-color: rgb(255 255 255 / 25%);
-  }
-  .b-reviews_navigation .navigation-node .count {
-      color: #000;
-  }
-  .b-reviews_navigation .navigation-node span {
-      color: #000;
-  }
-  .b-subposter-action {
-      color: var(--info-color);
-  }
-  .buttons .editor-bold {
-      color: var(--info-color);
-  }
-  .buttons .editor-italic {
-      color: var(--info-color);
-  }
-  .buttons .editor-underline {
-      color: var(--info-color);
-  }
-  .buttons .editor-strike {
-      color: var(--info-color);
-  }
-  .buttons .editor-link {
-      color: var(--info-color);
-  }
-  .buttons .editor-image {
-      color: var(--info-color);
-  }
-  .buttons .editor-quote {
-      color: var(--info-color);
-  }
-  .buttons .editor-spoiler {
-      color: var(--info-color);
-  }
-  .buttons .editor-file {
-      color: var(--info-color);
-  }
-  .buttons .editor-smiley {
-      color: var(--info-color);
-  }
-  .b-block_list li:hover {
-      color: var(--text-color);
-  }
-  .b-block_list li.selected {
-      color: var(--text-color);
-      background-color: rgb(255 255 255 / 20%);
-  }
-  .b-catalog_entry .cover .misc span {
-      color: var(--info-color);
-  }
-  .p-profiles .profile-head .c-brief header h1.aliases:after {
-      color: var(--info-color);
-  }
-  .profile-actions .mail {
-      color: var(--info-color);
-  }
-  .profile-actions .settings {
-      color: var(--info-color);
-  }
-  .profile-actions .ban {
-      color: var(--info-color);
-  }
-  .buttons .item-ignore {
-      color: var(--info-color);
-  }
-  .buttons .item-quote {
-      color: var(--info-color);
-  }
-  .buttons .item-reply {
-      color: var(--info-color);
-  }
-  .buttons .item-edit {
-      color: var(--info-color);
-  }
-  .buttons .item-delete {
-      color: var(--info-color);
-  }
-  .buttons .item-moderation {
-      color: var(--info-color);
-  }
-  .buttons .item-cancel {
-      color: var(--info-color);
-  }
-  .b-news_wall-topic .title {
-      color: var(--headline-color);
-  }
-  .b-status-line .section.main .collection-size {
-      color: var(--text-color);
-  }
-  .b-status-line .section.changed_at time:before {
-      color: var(--info-color);
-  }
-}
-@media screen and (prefers-color-scheme: dark) and (max-width: 1023px) {
-    body {
-  		background: #0f0f0f!important;
-	}
-  	.p-dashboards-show .v2 .mobile-slider-prev.bright:before {
-		background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05), #333);
-		height: 50%;
-	}
-	.p-dashboards-show .v2 .mobile-slider-next.bright:before {
-		background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.4), #333);
-		height: 50%;
-	}
-	.p-dashboards-show .v2 .mobile-slider-prev:after, .p-dashboards-show .v2 .mobile-slider-next:after {
-		color: rgba(255, 255, 255, 0.75);
-	}
-	.p-dashboards-show .v2 .mobile-slider-prev:before {
-		background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05), #333);
-		height: 60%;
+    .CodeMirror-line span {
+        color: #0d0d0d
     }
-	.p-dashboards-show .v2 .mobile-slider-next:before {
-		background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.4), #333);
-		height: 60%;
-	}
+
+    .b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+        background-color: rgb(200 255 200 / 10%);
+        border: 0
+    }
+
+    .b-add_to_list.dropped .trigger, .b-add_to_list.dropped .option {
+        background-color: rgb(255 200 200 / 10%);
+        border: 0
+    }
+
+    .b-add_to_list.on_hold .trigger, .b-add_to_list.on_hold .option {
+        background-color: rgb(255 255 255 / 20%);
+        border: 0
+    }
+
+    .b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+        background-color: rgb(200 200 255 / 10%);
+        border: 0
+    }
+
+    .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+        background-color: rgb(200 200 255 / 20%);
+        border: 0
+    }
+
+    .b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+        background-color: rgb(200 200 255 / 20%);
+        border: 0
+    }
+
+    .b-animes-menu .menu-topics-block .entry .name:hover {
+        color: var(--text-color)
+    }
+
+    .b-animes-menu .total-rates {
+        color: var(--text-color)
+    }
+
+    .b-block_list li {
+        color: var(--text-color)
+    }
+
+    .b-block_list li.selected {
+        background-color: rgb(255 255 255 / 20%);
+        color: var(--text-color)
+    }
+
+    .b-block_list li:hover {
+        background: rgb(255 255 255 / 20%)
+    }
+
+    .b-block_list li:hover {
+        color: var(--text-color)
+    }
+
+    .b-button {
+        background: #3ea6ff;
+        border-radius: 2px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 6px 12px;
+        text-transform: uppercase
+    }
+
+    .b-catalog_entry .cover .misc span {
+        color: var(--info-color)
+    }
+
+    .b-catalog_entry .cover .title:hover {
+        color: var(--text-color)
+    }
+
+    .b-catalog_entry-tooltip .inner .line .key {
+        color: var(--info-color)
+    }
+
+    .b-comment > .inner > .body {
+        color: var(--text-color)
+    }
+
+    .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander {
+        background-color: rgb(255 255 255 / 10%);
+        color: var(--text-color)
+    }
+
+    .b-critique_votes:before {
+        color: var(--text-color)
+    }
+
+    .b-db_entry-variant-list_item > .info .line .key {
+        color: var(--text-color)
+    }
+
+    .b-db_entry > .c-about .additional-links .line-container > .link:hover, .b-db_entry > .c-about .additional-links .line-container > a:hover {
+        color: var(--text-color)
+    }
+
+    .b-db_entry > .c-about .contest_winners .winners .winner {
+        color: var(--text-color)
+    }
+
+    .b-entry-info .line .value {
+        color: var(--text-color)
+    }
+
+    .b-form input[type=submit] {
+        background: #3ea6ff;
+        border-radius: 2px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 6px 12px;
+        text-transform: uppercase
+    }
+
+    .b-height_shortener .shade {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #333)
+    }
+
+    .b-hot_topics-v2 {
+        background: transparent;
+        border: 0
+    }
+
+    .b-hot_topics-v2 .subject, .b-hot_topics-v2 .b-link {
+        color: var(--headline-color)
+    }
+
+    .b-lang_trigger span:hover {
+        color: var(--text-color)
+    }
+
+    .b-link {
+        color: var(--sub-color)
+    }
+
+    .b-link span {
+        color: var(--sub-color)
+    }
+
+    .b-link span:hover {
+        color: var(--text-color)
+    }
+
+    .b-link:hover {
+        color: var(--text-color)
+    }
+
+    .b-news_wall-topic .title {
+        color: var(--headline-color)
+    }
+
+    .b-options-floated a, .b-options-floated .link {
+        color: var(--sub-color)
+    }
+
+    .b-quote {
+        background-color: rgb(255 255 255 / 20%);
+        color: var(--text-color)
+    }
+
+    .b-quote-v2 {
+        background-color: rgb(255 255 255 / 20%)
+    }
+
+    .b-rate .score-notice {
+        color: var(--text-color)
+    }
+
+    .b-rate .text-score {
+        color: var(--sub-color)
+    }
+
+    .b-review-topic.is-review_review_author_details > .inner .review-details .b-status-line {
+        color: var(--info-color)
+    }
+
+    .b-review-topic.is-review_review_author_details > .inner .review-info .neutral {
+        color: var(--info-color)
+    }
+
+    .b-reviews_navigation .navigation-node .count {
+        color: #000
+    }
+
+    .b-reviews_navigation .navigation-node span {
+        color: #000
+    }
+
+    .b-reviews_navigation .navigation-node-all {
+        background-color: rgb(255 255 255 / 25%);
+        border: 0
+    }
+
+    .b-stats_bar .stat_names .stat_name a {
+        color: var(--text-color)
+    }
+
+    .b-stats_bar .title {
+        color: var(--info-color)
+    }
+
+    .b-stats_bar a.title:hover {
+        color: var(--text-color)
+    }
+
+    .b-status-line .section.changed_at time:before {
+        color: var(--info-color)
+    }
+
+    .b-status-line .section.created_at time:before {
+        color: var(--text-color)
+    }
+
+    .b-status-line .section.main .collection-size {
+        color: var(--text-color)
+    }
+
+    .b-status-line .section.main .comments:before {
+        color: var(--text-color)
+    }
+
+    .b-subposter-action {
+        color: var(--info-color)
+    }
+
+    .b-tag {
+        color: var(--link-color)
+    }
+
+    .b-text_with_paragraphs {
+        color: var(--info-color)
+    }
+
+    .b-text_with_paragraphs .b-link {
+        color: var(--link-color)
+    }
+
+    .b-user16:hover {
+        color: var(--text-color)
+    }
+
+    .b-user16:hover a {
+        color: var(--text-color)
+    }
+
+    .b-user_history-line .date {
+        color: var(--info-color)
+    }
+
+    .b-user_history-line a span {
+        color: var(--link-color)
+    }
+
+    .bar.horizontal .line .x_label {
+        color: var(--sub-color)
+    }
+
+    .bar.vertical .line .x_label {
+        color: var(--sub-color)
+    }
+
+    .block {
+        color: var(--text-color)
+    }
+
+    .buttons .editor-bold {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-file {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-image {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-italic {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-link {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-quote {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-smiley {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-spoiler {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-strike {
+        color: var(--info-color)
+    }
+
+    .buttons .editor-underline {
+        color: var(--info-color)
+    }
+
+    .buttons .item-cancel {
+        color: var(--info-color)
+    }
+
+    .buttons .item-delete {
+        color: var(--info-color)
+    }
+
+    .buttons .item-edit {
+        color: var(--info-color)
+    }
+
+    .buttons .item-ignore {
+        color: var(--info-color)
+    }
+
+    .buttons .item-moderation {
+        color: var(--info-color)
+    }
+
+    .buttons .item-quote {
+        color: var(--info-color)
+    }
+
+    .buttons .item-reply {
+        color: var(--info-color)
+    }
+
+    .headline, .midheadline, .subheadline {
+        background: rgb(255 255 255 / 10%)
+    }
+
+    .headline:hover, .midheadline:hover, .subheadline:hover {
+        background: rgb(255 255 255 / 20%)
+    }
+
+    .l-page {
+        background-color: rgb(52 52 52 / 75%);
+        outline: 0
+    }
+
+    .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+        color: #fff
+    }
+
+    .l-top_menu-v2 .submenu > a:hover span {
+        color: #123
+    }
+
+    .menu-dropdown a span {
+        color: var(--text-color)
+    }
+
+    .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names {
+        background: var(--info-color);
+        border: 0;
+        color: var(--text-color)
+    }
+
+    .p-profiles .profile-head .c-brief header h1.aliases:after {
+        color: var(--info-color)
+    }
+
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover {
+        color: var(--text-color)
+    }
+
+    .p-profiles-show .achievements .header .title {
+        color: var(--sub-color)
+    }
+
+    .p-profiles-show .lifetime .times .time {
+        color: #fff
+    }
+
+    .p-profiles-show .lifetime .times .time.checked {
+        color: var(--sub-color)
+    }
+
+    .p-profiles-show .profile-content .activity .title {
+        color: var(--info-color)
+    }
+
+    .p-topics header h1 a.reload {
+        color: var(--headline-color)
+    }
+
+    .p-user_rates-index .list-groups .summary.lines {
+        color: var(--info-color)
+    }
+
+    .p-user_rates-index .list-lines .selectable:hover {
+        background: rgb(255 255 255 / 20%)
+    }
+
+    .profile-actions .ban {
+        color: var(--info-color)
+    }
+
+    .profile-actions .mail {
+        color: var(--info-color)
+    }
+
+    .profile-actions .settings {
+        color: var(--info-color)
+    }
+
+    .tooltip-inner {
+        background-color: rgb(52 52 52);
+        color: var(--text-color)
+    }
+
+    a span {
+        color: var(--link-color)
+    }
+
+    a span:hover {
+        color: var(--text-color)
+    }
+
+    b {
+        color: var(--text-color)
+    }
+
+    body {
+        background: url(/assets/background/tactile_noise.png) repeat;
+        --headline-color: #f1f1f1;
+        --info-color: #9da2a8;
+        --link-active-color: #f1f1f1;
+        --link-color: #3ea6ff;
+        --link-hover-color: #f1f1f1;
+        --sub-color: #aaa;
+        --text-color: #f1f1f1
+    }
+
+    h1, h2, h3, h4 {
+        color: var(--headline-color)
+    }
+
+    header.head .notice {
+        color: var(--info-color)
+    }
+
+    header.head .notice span {
+        color: var(--info-color)
+    }
+
+    header.head h1 a.back:before, header.head h2 a.back:before {
+        color: var(--link-color)
+    }
+
+    header.head h1 a.back:hover:before, header.head h2 a.back:hover:before {
+        color: var(--text-color)
+    }
+
+    header.head h1, header.head h2 {
+        color: var(--text-color)
+    }
+
+    input {
+        background-color: #fff;
+        color: #000
+    }
+
+    label {
+        color: var(--text-color)
+    }
+
+    p {
+        color: var(--text-color)
+    }
+
+    select {
+        background: rgb(255 255 255 / 10%);
+        color: #fff
+    }
+
+    span {
+        color: var(--text-color)
+    }
+
+    time {
+        color: var(--info-color)
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) and (max-width: 1023px) {
+    .p-dashboards-show .v2 .mobile-slider-next.bright:before {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.4), #333);
+        height: 50%
+    }
+
+    .p-dashboards-show .v2 .mobile-slider-next:before {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.4), #333);
+        height: 60%
+    }
+
+    .p-dashboards-show .v2 .mobile-slider-prev.bright:before {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05), #333);
+        height: 50%
+    }
+
+    .p-dashboards-show .v2 .mobile-slider-prev:after, .p-dashboards-show .v2 .mobile-slider-next:after {
+        color: rgba(255, 255, 255, 0.75)
+    }
+
+    .p-dashboards-show .v2 .mobile-slider-prev:before {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05), #333);
+        height: 60%
+    }
+
+    body {
+        background: #0f0f0f !important
+    }
 }
