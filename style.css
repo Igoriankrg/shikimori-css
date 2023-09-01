@@ -151,10 +151,6 @@
         color: var(--info-color)
     }
 
-    .b-input[data-v-3d684595] .ti-focus .ti-input {
-        background: rgb(52 52 52)
-    }
-
     .b-lang_trigger span:hover {
         color: var(--text-color)
     }
@@ -539,6 +535,10 @@
         background: rgb(52 52 52);
         border-bottom: 1px solid var(--sub-color);
         border-top: 1px solid var(--sub-color)
+    }
+
+    .ti-autocomplete[data-v-13abcd46] {
+        background: rgb(52 52 52)
     }
 
     .tooltip-inner {
