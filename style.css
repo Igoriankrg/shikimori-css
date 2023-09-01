@@ -125,7 +125,8 @@
 
     .b-hot_topics-v2 {
         background: transparent;
-        border: 0
+        border: 0;
+        height: auto
     }
 
     .b-hot_topics-v2 .subject, .b-hot_topics-v2 .b-link {
