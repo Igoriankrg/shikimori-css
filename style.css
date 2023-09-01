@@ -343,10 +343,6 @@
         color: var(--info-color)
     }
 
-    .copyright {
-        color: var(--info-color)
-    }
-
     .headline, .midheadline, .subheadline {
         background: rgb(255 255 255 / 10%)
     }
@@ -361,6 +357,10 @@
 
     .item-minus {
         color: #ccc;
+    }
+
+    .l-footer .copyright {
+        color: var(--info-color)
     }
 
     .l-page {
