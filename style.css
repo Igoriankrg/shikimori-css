@@ -161,6 +161,14 @@
         color: var(--text-color)
     }
 
+    .b-list_switchers .switcher.lines {
+        color: var(--sub-color)
+    }
+
+    .b-list_switchers .switcher.posters {
+        color: var(--sub-color)
+    }
+
     .b-news_wall-topic .title {
         color: var(--headline-color)
     }
