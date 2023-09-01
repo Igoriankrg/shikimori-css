@@ -179,6 +179,11 @@
         color: var(--sub-color)
     }
 
+    .b-modal > .inner {
+        background: rgb(20 20 20);
+        color: var(--text-color);
+    }
+
     .b-news_wall-topic .title {
         color: var(--headline-color)
     }
