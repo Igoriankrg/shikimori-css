@@ -148,7 +148,11 @@
     }
 
     .b-input input[type=file] {
-        color: var(--info-color);
+        color: var(--info-color)
+    }
+
+    .b-input[data-v-3d684595] .ti-focus .ti-input {
+        background: rgb(52 52 52)
     }
 
     .b-lang_trigger span:hover {
@@ -518,6 +522,17 @@
 
     .profile-actions .settings {
         color: var(--info-color)
+    }
+
+    .p-topics-new .topic-video .form,
+    .p-topics-edit .topic-video .form,
+    .p-topics-create .topic-video .form,
+    .p-topics-update .topic-video .form,
+    .p-articles-new .topic-video .form,
+    .p-articles-edit .topic-video .form,
+    .p-articles-create .topic-video .form,
+    .p-articles-update .topic-video .form {
+        background: rgb(255 255 255 / 10%);
     }
 
     .p-user_rates-index .list-lines tr.edit-form form {
