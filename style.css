@@ -323,6 +323,14 @@
         color: var(--info-color)
     }
 
+    .b-user_rate-history .status-counter .counter {
+        color: var(--info-color)
+    }
+
+    .b-user_rate-history .status-counter .status {
+        color: var(--sub-color)
+    }
+
     .bar.horizontal .line .x_label {
         color: var(--sub-color)
     }
