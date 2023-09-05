@@ -324,7 +324,7 @@
     }
 
     .b-user_rate-history .status-counter .counter {
-        color: var(--info-color)
+        color: var(--sub-color)
     }
 
     .b-user_rate-history .status-counter .status {
