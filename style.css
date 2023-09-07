@@ -117,6 +117,10 @@
         color: var(--text-color)
     }
 
+    .b-db_entry-variant-list_item > .info .name .b-link {
+        color: var(--text-color)
+    }
+
     .b-entry-info .line .value {
         color: var(--text-color)
     }
@@ -475,6 +479,10 @@
 
     .l-top_menu-v2 .global-search .search-marker {
         color: var(--info-color)
+    }
+
+    .l-top_menu-v2.is-search-shade .search-results {
+        background-color: rgb(52 52 52)
     }
 
     .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
