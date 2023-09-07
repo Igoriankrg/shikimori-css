@@ -481,6 +481,14 @@
         color: var(--info-color)
     }
 
+    .l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode {
+        color: var(--text-color)
+    }
+
+    .l-top_menu-v2 .global-search .search-results .search-mode.active:before {
+        background: var(--link-color)
+    }
+
     .l-top_menu-v2.is-search-shade .search-results {
         background-color: rgb(52 52 52)
     }
