@@ -141,6 +141,14 @@
         color: var(--text-color)
     }
 
+    .b-header_filters .filter-line a.current {
+        color: var(--text-color)
+    }
+
+    .b-header_filters .filter-line .title {
+        color: var(--text-color)
+    }
+
     .b-height_shortener .shade {
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #333)
     }
@@ -558,6 +566,14 @@
 
     .p-user_rates-index .list-lines .selectable:hover {
         background: rgb(255 255 255 / 20%)
+    }
+
+    .p-user_rates-index .list-lines tr td .episodes_total {
+        color: var(--info-color)
+    }
+
+    .p-user_rates-index .list-lines tr td .rate-text {
+        color: var(--info-color)
     }
 
     .profile-actions .ban {
