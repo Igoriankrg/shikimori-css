@@ -344,7 +344,7 @@
     }
 
     .b-user_rate .rate-show .note {
-        color: var(--text-color);
+        color: var(--info-color);
     }
 
     .bar.horizontal .line .x_label {
