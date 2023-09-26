@@ -343,6 +343,10 @@
         color: var(--sub-color)
     }
 
+    .b-user_rate .rate-show .note {
+        color: var(--text-color);
+    }
+
     .bar.horizontal .line .x_label {
         color: var(--sub-color)
     }
@@ -694,6 +698,26 @@
 }
 
 @media screen and (prefers-color-scheme: dark) and (max-width: 1023px) {
+    body {
+        background: #0f0f0f !important
+    }
+
+    .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-ignore {
+        color: var(--link-color);
+    }
+
+    .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-reply {
+        color: var(--link-color);
+    }
+
+    .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-moderation {
+        color: var(--link-color);
+    }
+
+    .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-cancel {
+        color: var(--link-color);
+    }
+
     .p-dashboards-show .v2 .mobile-slider-next.bright:before {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.4), #333);
         height: 50%
@@ -716,9 +740,5 @@
     .p-dashboards-show .v2 .mobile-slider-prev:before {
         background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05), #333);
         height: 60%
-    }
-
-    body {
-        background: #0f0f0f !important
     }
 }
