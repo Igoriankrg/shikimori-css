@@ -197,7 +197,7 @@
 
     .b-modal > .inner {
         background: rgb(20 20 20);
-        color: var(--text-color);
+        color: var(--text-color)
     }
 
     .b-news_wall-topic .title {
@@ -288,7 +288,7 @@
     }
 
     .b-text_with_paragraphs {
-        color: var(--info-color)
+        color: var(--text-color)
     }
 
     .b-text_with_paragraphs .b-link {
@@ -344,7 +344,7 @@
     }
 
     .b-user_rate .rate-show .note {
-        color: var(--info-color);
+        color: var(--info-color)
     }
 
     .bar.horizontal .line .x_label {
@@ -703,19 +703,19 @@
     }
 
     .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-ignore {
-        color: var(--link-color);
+        color: var(--link-color)
     }
 
     .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-reply {
-        color: var(--link-color);
+        color: var(--link-color)
     }
 
     .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-moderation {
-        color: var(--link-color);
+        color: var(--link-color)
     }
 
     .b-topic.aside-expanded > .inner > aside.buttons .main-controls .item-cancel {
-        color: var(--link-color);
+        color: var(--link-color)
     }
 
     .p-dashboards-show .v2 .mobile-slider-next.bright:before {
