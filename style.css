@@ -464,6 +464,10 @@
         background: rgb(255 255 255 / 20%)
     }
 
+    header.head h1, header.head h2 {
+        color: var(--text-color)
+    }
+
     .headline, .midheadline, .subheadline {
         background: rgb(255 255 255 / 10%)
     }
@@ -515,6 +519,14 @@
 
     .menu-dropdown a span {
         color: var(--text-color)
+    }
+
+    .p-animes-franchise, .p-mangas-franchise, .p-ranobe-franchise {
+        background: url(/assets/background/tactile_noise.png) repeat
+    }
+
+    .p-animes-franchise .graph .link, .p-mangas-franchise .graph .link, .p-ranobe-franchise .graph .link {
+        stroke: var(--text-color)
     }
 
     .p-animes-show .other-names, .p-mangas-show .other-names, .p-ranobe-show .other-names {
