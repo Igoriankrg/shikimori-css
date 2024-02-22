@@ -609,6 +609,10 @@
         border-top: 1px solid var(--sub-color)
     }
 
+    .text {
+        color: var(--text-color)
+    }
+
     .ti-autocomplete[data-v-13abcd46] {
         background: rgb(52 52 52)
     }
